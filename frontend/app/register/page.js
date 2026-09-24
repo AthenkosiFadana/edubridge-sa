@@ -39,13 +39,13 @@ export default function Register() {
         Start your digital skills journey. No cost, ever.
       </p>
       <label>Full name</label>
-      <input required minLength={2} value={form.name} onChange={set("name")} placeholder="Athenkosi Mkhize" />
+      <input required minLength={2} value={form.name} onChange={set("name")} placeholder="Athenkosi Fadana" />
       <label>Email</label>
       <input required type="email" value={form.email} onChange={set("email")} placeholder="you@example.com" />
       <label>Password (min 8 characters)</label>
       <input required minLength={8} type="password" value={form.password} onChange={set("password")} />
       <label>Location (optional)</label>
-      <input value={form.location} onChange={set("location")} placeholder="e.g. Khayelitsha, Cape Town" />
+      <input value={form.location} onChange={set("location")} placeholder="e.g. Whittlesea, Eastern Cape" />
       <button className="btn" disabled={busy}>
         {busy ? "Creating account…" : "Register"}
       </button>
