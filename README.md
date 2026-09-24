@@ -192,7 +192,8 @@ data cost, device access, geography and lack of guidance. It provides
 
 ## Screenshots
 
-_Add screenshots after first deployment._
+<img width="910" height="475" alt="image" src="https://github.com/user-attachments/assets/f067d757-57b7-43b5-8a13-ac16195c79ce" />
+
 
 ## License
 
